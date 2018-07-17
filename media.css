@@ -110,6 +110,7 @@
     
     .tags {
         width: 60%;
+        min-height: fit-content;
     }
     
     .btn-sub {

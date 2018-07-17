@@ -46,7 +46,8 @@
 }
 
 .searchPanel-first {
-    padding-left: 40vw;
+    position: relative;
+    left: 40vw;
 }
 
 .search input {
@@ -56,6 +57,7 @@
     font: bold 0.8em Sans-serif;
     color: #708090;
     width: 10.5vw;
+    max-width: 175px;
     padding: 0.5vw 1vw 0.4vw 2.5vw;
     border-radius: 20vw;
     transition: all 0.5s ease 0s;
