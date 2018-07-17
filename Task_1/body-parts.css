@@ -1,0 +1,187 @@
+.parts {
+    width: 70%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 4vw;
+    font-family: Abel-Regular;
+    font-size: 2.5em;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Abel-Regular;
+    font-size: 1.5em;
+    margin: 0 16vw 4vw;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.tours {
+    margin-left: 2vw;
+    background-color: darkgray;
+    padding: 1vw;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    /*display: grid;
+    grid-template-columns: repeat(auto-fill, 18.5vw);
+    grid-gap: 2vw;
+    justify-content: center;*/
+}
+
+.card {
+    background-color: cornsilk;
+    border-radius: 0 2vw 0 0;
+    transition: all 0.6s ease 0.2s;
+    max-width: 18.5vw;
+    margin: 1.5vw;
+
+}
+
+.card:hover .card-img {
+    transform: scale(1.5);
+
+}
+
+.card-img-block {
+    overflow: hidden;
+    height: 13vw;
+
+    border-radius: 0 2vw 0 0;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0 2vw 0 0;
+    height: auto;
+    transition: all 0.6s ease 0s;
+}
+
+h4 {
+    font-family: WorkSans-Regular;
+    line-height: 1.2em;
+}
+
+.Name {
+    font-family: Abel-Regular;
+    text-transform: uppercase;
+
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.description {
+    font-family: WorkSans-Regular;
+    line-height: 1.5em;
+    color: darkslategrey;
+    font-size: 1.1em;
+    text-transform: none;
+    background-color: bisque;
+}
+
+.description-text{
+    display: flex;
+    padding: 2vw;
+    color:dimgray;
+    font-size: 1em;
+    font-family: WorkSans-Regular;
+    justify-content: center;
+}
+
+.info-time {
+    font-size: 1.2em;
+    margin: 1vw 1vw;
+    color: cadetblue;
+
+}
+
+.info-price {
+    font-size: 1.2em;
+    margin: 1vw 1vw;
+    color: darkcyan;
+
+}
+
+.info-time:before {
+    content: "";
+    background: url(images/date.png) no-repeat;
+    background-size: 2vw;
+    width: 2vw;
+    height: 2vw;
+    float: left;
+    position: relative;
+    top: -5px;
+    left: -6px;
+
+}
+
+.info-price:before {
+    content: "";
+    background: url(images/cost.png) no-repeat;
+    background-size: 2vw;
+    width: 2vw;
+    height: 2vw;
+    float: left;
+    position: relative;
+    top: -3px;
+    left: -6px;
+}
+
+.card-end {
+    display: flex;
+    flex-direction: row;
+    margin: 1vw 1vw;
+    justify-content: space-between;
+
+}
+
+.card-end-1,
+.card-end-2,
+.card-end-3 {
+    color: cornflowerblue;
+    font-size: 1em;
+}
+
+.card-end-1:before {
+    content: "";
+    background: url(images/time.svg) no-repeat;
+    width: 1.5vw;
+    height: 1.5vw;
+    float: left;
+    position: relative;
+    top: -2px;
+    left: -6px;
+}
+
+.card-end-2:before {
+    content: "";
+    background: url(images/star.svg) no-repeat;
+    width: 1.5vw;
+    height: 1.5vw;
+    float: left;
+    position: relative;
+    top: -2px;
+    left: -6px;
+}
+
+.card-end-3:before {
+    content: "";
+    background: url(images/comments.svg) no-repeat;
+    width: 1.5vw;
+    height: 1.5vw;
+    float: left;
+    position: relative;
+    top: -2px;
+    left: -6px;
+}
+

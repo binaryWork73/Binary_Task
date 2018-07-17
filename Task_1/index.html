@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TND Travel</title>
+
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hamburger.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="body-aside.css">
+    <link rel="stylesheet" href="body-parts.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+
+<body>
+    <div id="side-menu" class="side-nav">
+        <a href="#"><button class="btn nav-btn">Home</button></a>
+        <a href="#"><button class="btn nav-btn">Tours</button></a>
+        <a href="#"><button class="btn nav-btn">About</button></a>
+        <a href="#"><button class="btn nav-btn">Team</button></a>
+        <a href="#"><button class="btn nav-btn">Contact</button></a>
+    </div>
+    <div id="id1" class="header">
+        <div class="hamburger-menu" onclick="toggle_menu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="logo">
+            <img class="logo-img" src="images/LOGO.png">
+        </div>
+        <div class="content">
+            <div class="top">
+                <div class="socialNetworkIconBar socialNetworkIconBar-first">
+                    <div><img class="sn-logo-img" src="images/facebook-logo.png"></div>
+                    <div><img class="sn-logo-img" src="images/instagram-logo.png"></div>
+                    <div><img class="sn-logo-img" src="images/pinterest-logo.png"></div>
+                    <div><img class="sn-logo-img" src="images/twitter-logo.png"> </div>
+                </div>
+                <div class="searchPanel-first">
+                    <form method="get" action="/search" class="search">
+                        <input size="40" placeholder="Search..." />
+                    </form>
+                </div>
+            </div>
+            <div class="navigationBar">
+                <div class="button">
+                    <a src="#id1">Home</a>
+                </div>
+                <div class="button">
+                    <a src="#id2">Tours</a>
+                </div>
+                <div class="button">
+                    <a src="#id3">About</a>
+                </div>
+                <div class="button">
+                    <a src="#id4">Team</a>
+                </div>
+                <div class="button">
+                    <a src="#id5">Contact</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="parts">
+            <div class="about" name="id3">
+                <h1>What we do</h1>
+                <h3>We excel at helping you get your vacation planned. Not just any vacation, but exceptional vacations filled with inspiring and life-enriching experiences.</h3>
+            </div>
+            <div class="tours" name="id2">
+                <div class="card">
+                    <div class="card-img-block"><img class="card-img" src="images/bukovel.jpg"></div>
+                    <p class="Name">Ukraine</p>
+                    <div class="info">
+                        <p class="info-time">01.01 - 07.01</p>
+                        <p class="info-price">9 500 uah</p>
+                    </div>
+                    <span class="description description-text">Bukovel is one of the most popular ski resorts in the Ukrainian Carpathian Mountains and is situated 30 km southwest of the city of Yaremche.</span>
+                    <div class="card-end">
+                        <span class="card-end-1">14:20</span>
+                        <span class="card-end-2">34</span>
+                        <span class="card-end-3">2</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-block"><img class="card-img" src="images/greece.jpg"></div>
+                    <p class="Name">Greece</p>
+                    <div class="info">
+                        <p class="info-time">01.04 - 01.05</p>
+                        <p class="info-price">32 000 uah</p>
+                    </div>
+                    <span class="description description-text">Greece is one of the world's most popular tourist destinations, ranking in the world's top 20 countries. Explore Greece holidays and discover the best places to visit.</span>
+                    <div class="card-end">
+                        <span class="card-end-1">19:40</span>
+                        <span class="card-end-2">14</span>
+                        <span class="card-end-3">9</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-block"><img class="card-img" src="images/paris.jpg"></div>
+                    <p class="Name">France</p>
+                    <div class="info">
+                        <p class="info-time">10.06 - 17.06</p>
+                        <p class="info-price">7 400 uah</p>
+                    </div>
+                    <span class="description description-text">So, you're finally going to Paris. The City of Light and flagrant public displays of affection! How exciting. Where will you stay? What will you do?</span>
+                    <div class="card-end">
+                        <span class="card-end-1">01:20</span>
+                        <span class="card-end-2">9</span>
+                        <span class="card-end-3">19</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-block"><img class="card-img" src="images/gdansk.jpg"></div>
+                    <p class="Name">Poland</p>
+                    <div class="info">
+                        <p class="info-time">19.10 - 21.10</p>
+                        <p class="info-price">3 000 uah</p>
+                    </div>
+                    <span class="description description-text">Do you have day off? Gdansk is the city, where you can't get bored! Book your tickets online for the top things to do in Gdansk.</span>
+                    <div class="card-end">
+                        <span class="card-end-1">07:00</span>
+                        <span class="card-end-2">3</span>
+                        <span class="card-end-3">1</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-block"><img class="card-img" src="images/japan.jpg"></div>
+                    <p class="Name">Japan</p>
+                    <div class="info">
+                        <p class="info-time">06.09 - 13.09</p>
+                        <p class="info-price">6 500 uah</p>
+                    </div>
+                    <span class="description description-text">The "Land of the Rising Sun" is a country where the past meets the future. Japanese culture stretches back millennia, yet has also been quick to adopt and created the latest modern fashions and trends.</span>
+                    <div class="card-end">
+                        <span class="card-end-1">21:30</span>
+                        <span class="card-end-2">5</span>
+                        <span class="card-end-3">26</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact" id="id5">
+            </div>
+        </div>
+        
+        <div class="aside">
+            <img class="photo-img" src="images/girl.jpg">
+            <h2>Regina Todorenko</h2>
+            <p class="aside-description">My name is Regina, Ukrainian originally. I have been traveling full-time for the last 5 years. My mission is to inspire you to travel more and give some valuable practical tips about each destination.</p>
+            <div class="socialNetworkIconBar socialNetworkIconBar-second">
+                <div><img class="sn-logo-img" src="images/facebook-logo.png"></div>
+                <div><img class="sn-logo-img" src="images/instagram-logo.png"></div>
+                <div><img class="sn-logo-img" src="images/pinterest-logo.png"></div>
+                <div><img class="sn-logo-img" src="images/twitter-logo.png"> </div>
+            </div>
+            <div class="subscribePanel">
+                <form method="get" action="#" class="subscribe">
+                    <input name="Name" size="40" placeholder="Name..." />
+                    <input name="Email" size="40" placeholder="Email..." />
+                </form>
+                <button class="btn-sub">Subscribe</button>
+            </div>
+            <form class="myForm" action="/search">
+                <input type="text" class="myFormSearch" placeholder="Search...">
+                <input type="submit" class="myFormSubmit" value="">
+            </form>
+            <div class="tags">
+                <div class="button-tag">
+                    <a>#culture</a>
+                </div>
+                <div class="button-tag">
+                    <a>#tour</a>
+                </div>
+                <div class="button-tag">
+                    <a>#mountains</a>
+                </div>
+                <div class="button-tag">
+                    <a>#river</a>
+                </div>
+                <div class="button-tag">
+                    <a>#sky</a>
+                </div>
+                <div class="button-tag">
+                    <a>#tower</a>
+                </div>
+                <div class="button-tag">
+                    <a>#light</a>
+                </div>
+                <div class="button-tag">
+                    <a>#sun</a>
+                </div>
+                <div class="button-tag">
+                    <a>#fashion</a>
+                </div>
+                <div class="button-tag">
+                    <a>#ski</a>
+                </div>
+                <div class="button-tag">
+                    <a>#ocean</a>
+                </div>
+            </div>
+            <div class="comments">
+                <div class="comment">
+                    <div class="comment-top">
+                        <img class="comment-img" src="images/boy1.jpg">
+                        <p class="comment-name">Evgeny Sinelnikov</p>
+                    </div>
+                    <span class="comment-text">Cool!!!</span>
+                </div>
+                <div class="comment">
+                    <div class="comment-top">
+                        <img class="comment-img" src="images/girl1.jpg">
+                        <p class="comment-name">Zhanna Badoeva</p>
+                    </div>
+                    <span class="comment-text">The world is a book and those who do not travel read only one page.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span class="footer-text">TND Travel 2018</span>
+    </div>
+</body>
+
+<script>
+    function toggle_menu(icon) {
+        icon.classList.toggle("change");
+        document.getElementById("side-menu").classList.toggle("active");
+
+    }
+</script>
+
+</html>

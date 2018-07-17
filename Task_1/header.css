@@ -1,0 +1,101 @@
+.header {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 35vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo {
+    width: 40%;
+    padding: 2vw;
+}
+
+.logo-img {
+    width: 40vw;
+    height: auto;
+
+}
+
+.content {
+    width: 56%;
+
+}
+
+.socialNetworkIconBar-first {
+    padding: 1vw 1vw 0 40vw;
+}
+
+.socialNetworkIconBar {
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.sn-logo-img {
+    width: 3vw;
+    transition: all 0.2s ease 0s;
+}
+
+.sn-logo-img:hover {
+    width: 3.5vw;
+
+}
+
+.searchPanel-first {
+    padding-left: 40vw;
+}
+
+.search input {
+    background: url(images/search-white.png) no-repeat 0.8vw #fcfcfc;
+    background-size: 1.4vw;
+    border: 1px solid #d1d1d1;
+    font: bold 0.8em Sans-serif;
+    color: #708090;
+    width: 10.5vw;
+    padding: 0.5vw 1vw 0.4vw 2.5vw;
+    border-radius: 20vw;
+    transition: all 0.5s ease 0s;
+}
+
+.search input:focus {
+    width: 11.5vw;
+}
+
+
+
+.top {
+    padding-bottom: 18.5vw;
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 0.8em;
+    font-family: WorkSans-Regular;
+    text-transform: uppercase;
+    width: 8vw;
+    background-color: #2F9BE5;
+    height: 2vw;
+    border-radius: 1vw;
+    transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+    width: 10vw;
+    background-color: #1e7cbc;
+    height: 2.5vw;
+    box-shadow: 0.3vw 0.3vw 12px grey;
+    font-size: 1.2em;
+}

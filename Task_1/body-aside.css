@@ -1,0 +1,233 @@
+.aside {
+    font-family: WorkSans-Regular;
+    line-height: 1.2em;
+    background-color: #cce6ff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    float: left;
+    width: 28%;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s ease 0s;
+}
+
+.aside:hover {
+    background-color: #cce6ff;
+}
+
+.photo-img {
+    border-radius: 50%;
+    width: 15vw;
+    height: auto;
+    margin-top: 3vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    margin: 2vw 0;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.aside-description {
+    font-size: 1em;
+    text-align: center;
+    margin: 0 3vw;
+}
+
+.socialNetworkIconBar-second {
+    width: 50%;
+    margin-top: 2vw;
+}
+
+.subscribePanel {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-sub {
+    align-self: center;
+    color: white;
+    padding: .8vw 1vw;
+    border-radius: 3vw;
+    background: rgb(64, 199, 129);
+    transition: all 0.4s ease 0s;
+    margin-bottom: 2vw;
+    font-size: 0.9em;
+}
+
+.btn-sub:hover {
+    box-shadow: 0.3vw 0.3vw 12px grey;
+    transform: scale(1.1);
+}
+
+.subscribe input {
+    border: 1px solid #d1d1d1;
+    font: bold 0.8em Sans-serif;
+    color: darkslategray;
+    width: 10.5vw;
+    padding: 0.5vw 8vw 0.5vw 1vw;
+    border-radius: 20px;
+    transition: all 0.5s ease 0s;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw 0 1vw;
+}
+
+.subscribe input:focus {
+    width: 11.5vw;
+
+    box-shadow: 0.3vw 0.3vw 12px grey;
+    background-color: bisque;
+}
+
+.searchPanel {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.myForm {
+    height: 2vw;
+    position: relative;
+    vertical-align: middle;
+    width: 70%;
+    margin-bottom: 2vw;
+}
+
+.myForm input {
+    border: none;
+    position: absolute;
+    font: bold 0.8em Sans-serif;
+}
+
+.myFormSearch {
+    border-radius: 20vw;
+    box-shadow: 0 0 0 1px #c8c8c8;
+    vertical-align: middle;
+    color: darkslategray;
+    font-family: HelveticaNeueReg;
+    font-size: 1em;
+    padding: 0.3vw 1vw;
+    width: 18vw;
+    height: 2vw;
+
+    transition: all 0.5s ease 0s;
+}
+
+.myFormSearch:focus {
+
+    box-shadow: 0.3vw 0.3vw 12px grey;
+    background-color: beige;
+}
+
+.myFormSubmit {
+    border-radius: 0 20vw 20vw 0;
+    border: 5px solid red;
+    background: url(images/search-white.png) no-repeat 0.3vw #fcfcfc;
+    background-size: 1.1vw;
+    width: 2vw;
+    box-sizing: border-box;
+    left: 18vw;
+    font-size: 0.8em;
+    height: 2.5vw;
+}
+
+.myFormSubmit:hover {
+    background-color: #087ED8;
+    cursor: pointer;
+}
+
+
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-content: center;
+    height: 20vw;
+    margin-bottom: 1vw;
+
+}
+
+
+.button-tag:hover {
+    transform: scale(1.01);
+    background-color: #1e7cbc;
+    height: 2.5vw;
+    box-shadow: 0.3vw 0.3vw 12px grey;
+    font-size: 1.2em;
+}
+
+.button-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 1em;
+    font-family: WorkSans-Regular;
+
+    background-color: #2F9BE5;
+    border-radius: 1vw;
+    transition: all 0.4s ease 0s;
+    padding: 0.2vw 1vw;
+    height: 2vw;
+    margin: 0.5vw 0.5vw;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vw;
+    background-color: beige;
+}
+
+.comment-top {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.comment-img {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+
+.comment-name {
+    font-size: 1.2em;
+    margin: 1vw 1vw;
+    color: darkcyan;
+}
+
+.comment-text {
+    background-color: darkseagreen;
+    font-family: WorkSans-Regular;
+    line-height: 1.5em;
+    color: black;
+    font-size: 0.8em;
+    text-transform: none;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.5vw;
+    margin-top: .2vw;
+}
+
+.comment-text:before {
+    content: ">> ";
+    color: aliceblue;
+}
+
+

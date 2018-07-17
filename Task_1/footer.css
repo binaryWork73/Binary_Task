@@ -1,0 +1,13 @@
+.footer {
+    background-color: #2F9BE5;
+}
+
+.footer-text {
+    display: flex;
+    padding: 2vw;
+    color: white;
+    font-size: 1em;
+    font-family: WorkSans-Regular;
+    text-transform: uppercase;
+    justify-content: center;
+}
